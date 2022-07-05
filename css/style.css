@@ -1,0 +1,459 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+header {
+    background: #33464D;
+}
+
+header .header-top .container .row .navbar .container-fluid .nav-link,
+header .header-top .container .row .navbar .nav-item .nav-link,
+h5,
+p {
+    color: white;
+    margin-bottom: 0;
+    font-size: 16px;
+
+}
+header .header-top .container .row .navbar .container-fluid .nav-link{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    margin-left: 20px;
+    padding: 0.5rem 0rem;
+}
+.nav-active{
+    color: white !important;
+    position: relative;
+}
+.nav-active::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left:0 ;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+
+}
+.header-sp select {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 8px 2px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    transform: translateY(-9px);
+}
+.header-sp select option{
+    color: black;
+    align-items: start;
+
+}
+
+header .header-top .container .row .navbar .container-fluid p{
+    text-align: end;
+    font-size: 14px;
+}
+
+header .header-main .carousel .carousel-inner .carousel-item img {
+    height: 100%;
+    width: 100%;
+
+}
+
+header .header-main .carousel .carousel-inner {
+    height: 70%;
+}
+
+header .header-main .carousel .carousel-inner .carousel-item p {
+    display: flex;
+    justify-content: start;
+    font-size: 30px;
+    text-align: start;
+
+}
+
+header .header-main .carousel .carousel-inner .carousel-item h1 {
+    display: flex;
+    justify-content: start;
+    font-size: 60px;
+    text-align: start;
+}
+
+.carousel-indicators button {
+    border-radius: 50%;
+
+}
+
+.carousel-caption {
+    width: 60%;
+    height: 10%;
+}
+
+
+
+.header-footer {
+    margin-top: 40px;
+
+}
+
+.header-footer h1 {
+    color: white;
+    font-size: 34px;
+    margin-bottom: 0px;
+
+}
+
+.header-footer p {
+    color: white;
+    font-size: 20px;
+
+}
+
+.header-footer img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.header-footer .about2 h1 {
+    padding-top: 40px;
+}
+
+.header-footer .about2 button {
+    background: #33464D;
+    color: white;
+    border: 2px solid white;
+    width: 40%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.section-top .container .row .div1 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.section-top .container .row .div1 h3 {
+    font-size: 26px;
+    margin-left: 15px;
+    letter-spacing: 0.50px;
+}
+
+.section-top .container .row h1 {
+    margin-top: 50px;
+}
+
+.section-top .container .row .div1 .svg {
+    width: 80px;
+    height: 80px;
+    background: rgb(217, 213, 213);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-top .container .row .div1 .svg .bi{
+ font-size: 30px;
+}
+
+
+section .section-top hr {
+    height: 3px;
+    background: #C4C4C4;
+    margin-top: 30px;
+}
+
+section .section-main .container .row img {
+    width: 100%;
+    border-radius: 20px;
+    height: 90%;
+
+}
+
+section .section-main .container .row img {
+    width: 100%;
+    border-radius: 20px;
+    height: 90%;
+
+}
+
+section .section-main .container .row h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.products .row .product1 .imgs img , .product3 .imgs img  {
+    margin-top: 100px;
+    width: 25%;
+    padding: 15px 15px;
+}
+
+.products .row .product1 img ,.product3 img {
+    left: 60px;
+    background: rgb(217, 213, 213);
+}
+
+.products .row .product1 img :first-child,.product3 img :first-child {
+    left: 60px;
+    background: rgb(217, 213, 213);
+    width: 80%;
+}
+
+.products .row .product2 .row h2, .product4 .row h2  {
+    color: #1AA1BF;
+    font-size: 24px;
+}
+
+.products .container h4 :last-child {
+    display: flex;
+    margin-top: 30px;
+}
+
+.products .row .product2 .row p ,.product4 .row p{
+    color: #000;
+    font-size: 40px;
+}
+
+.products .row .product2 .button,.product4 .button {
+    width: 40%;
+    height: 10%;
+    border-radius: 20px;
+}
+
+.products .row .product2 .button a,.product4 .button a  {
+    color: #000;
+    text-decoration: none;
+}
+
+.section-footer .container .row .row {
+
+    height: 200px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.section-footer .container .row .row .bi {
+    font-size: 78px;
+}
+
+.section-footer .container .row .row p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.section-footer .container .row h1 {
+    margin-top: 60px;
+}
+
+.footer-top .container .row p {
+    color: #000;
+}
+.footer-footer .container .row {
+    margin-top: 35px;
+}
+.footer-top .container .row .min p {
+
+    color: rgb(179, 176, 176);
+}
+
+.footer-top .container .row hr {
+    height: 2px;
+}
+.footer-main .container .row h1{
+    color: black;
+
+    margin-top: 40px; 
+}
+.footer-main .container .row .contact h1{
+    color:white;
+    margin-left: 40px;
+    margin-top: 40px; 
+}
+.footer-main .container .row p{
+    color: white;
+    margin-left: 40px;
+    
+}
+.footer-main .container .row img{
+    width: 100%;
+}
+
+.footer-footer {
+    background: #33464D;
+    margin-top: 35px;
+}
+
+.footer-footer .container .row .row {
+    display: flex;
+    text-align: center;
+
+
+}
+
+.footer-footer .container .row .row a {
+    padding: 0%;
+}
+.footer-footer i{
+    font-size: 40px;
+    color: white;
+ 
+}
+.footer-footer a{
+    margin-top: 20px;
+    width: 30%;  
+     margin-bottom: 20px;
+}
+.footer-footer .container .row .row p {
+    font-size: 14px;
+}
+.footer-footer .container .row .row h6{
+color: white;
+}
+.footer-footer .container .row .row h6 span{
+    text-decoration: underline;
+}
+.contact3 p{
+color: #000;
+}
+.contact3 p span{
+    color: #1AA1BF;
+    text-decoration: underline;
+}
+.contact3 .min2 button{
+    padding: 10px 50px;
+ border-radius: 10px;
+margin-bottom: 30px;
+}
+.contact2 p{
+    color: white;
+    opacity: 0.7;
+    margin-left: 40px;
+}
+.contact2 i{
+    color: white;
+    margin-left: 40px;
+}
+.contact3 .min2 button a{
+       text-decoration: none;
+       color: #000;
+}
+.contact2 .icons i{
+    font-size: 40px;
+   
+} 
+.contact4 .icons i{
+    font-size: 40px;
+    color: white;
+    margin-left: 30px;
+} 
+h4{
+    margin-top: 40px;
+}
+@media screen and (max-width: 1000px){
+    .header-sp select {
+        transform: translateY(0px);
+        margin-bottom: 5px;
+        
+    }
+    header .header-top .container .row .navbar .container-fluid p{
+        text-align: start;
+    }
+ 
+    header .header-top .container .row .navbar .shadow-n{
+       box-shadow: none;
+       width: 62px;
+    }
+    header .header-top .container .row .navbar .shadow-n img{
+        width: 100%;
+        height: 100%;
+    }
+    header .header-top .container .row .navbar .container-fluid .nav-link{
+        margin-left: 0px;
+        padding: 0.5rem 0rem;
+    }
+}
+@media screen and (max-width:900px) {
+    h1{
+        font-size: 25px;
+    }
+    p{
+       font-size:  10px;
+    }
+    .bi{
+        font-size: 20px;
+    }
+    .section .container .row .div1 h3{
+    font-size: 20px;
+}
+
+.products .row .product2 .button,.contact3 .min2 button,.products .row .product2 .button,.header-footer .about2 button, .button  {
+padding: 15px 25px;
+}
+.products .row .product2 .row p ,.product4 .row p{
+    font-size:20px;
+}
+    /* header .header-main .carousel .carousel-inner .carousel-item p {
+
+        font-size: 20px;
+
+    }
+
+    header .header-main .carousel .carousel-inner .carousel-item h1 {
+
+        font-size: 40px;
+
+    } */
+    .footer-footer .container .row .row img{
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+
+    
+    /* header .header-main .carousel .carousel-inner .carousel-item h1 {
+
+        font-size: 20px;
+
+    }
+
+    header .header-main .carousel .carousel-inner .carousel-item p {
+
+        font-size: 10px;
+
+    } */
+    .product3,.product4{
+        display: none;
+    }
+    h1{
+        font-size: 20px;
+    }
+    p{
+       font-size:  10px;
+    }
+    .bi{
+        font-size: 20px;
+    }
+h3{
+    font-size: 15px;
+}
+.button{
+    padding: 10px 20px;
+}
+.footer-footer .container .row .row img{
+    width: 10%;
+}
+.products .row .product2 .button,.contact3 .min2 button,.products .row .product2 .button,.header-footer .about2 button, .button  {
+    padding: 10px 20px;
+    }
+}

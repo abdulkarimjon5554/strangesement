@@ -1,0 +1,313 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.header-top {
+    background: #33464D;
+}
+
+header .header-top .container .row .navbar .container-fluid .nav-link,
+header .header-top .container .row .navbar .nav-item .nav-link,
+h5,
+p {
+    color: white;
+    margin-bottom: 0;
+    font-size: 16px;
+
+}
+header .header-top .container .row .navbar .container-fluid .nav-link{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    margin-left: 20px;
+    padding: 0.5rem 0rem;
+}
+.nav-active{
+    color: white !important;
+    position: relative;
+}
+.nav-active::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left:0 ;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+
+}
+.header-sp select {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 8px 2px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    transform: translateY(-9px);
+}
+.header-sp select option{
+    color: black;
+    align-items: start;
+
+}
+
+header .header-top .container .row .navbar .container-fluid p{
+    text-align: end;
+    font-size: 14px;
+}
+header .header-section .container .row h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 129%;
+    margin-top: 60px;
+}
+header .header-section .container .row{
+    display: flex;
+width: 80%;
+justify-content: center;
+}
+header .header-section .container{
+    display: flex;
+    justify-content: center;
+}
+header .header-section .container .row p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 147.52%;
+/* or 35px */
+
+letter-spacing: 0.03em;
+margin-top: 30px;
+color: #686868;
+}
+header .header-section .container .row img{
+    margin-top: 60px;
+}
+header .header-section .container  hr {
+    height: 2px;
+    color: black;
+    margin-top: 30px;
+margin-bottom: 30px;
+}
+.footer-footer {
+    background: #33464D;
+    margin-top: 35px;
+}
+
+.footer-footer .container .row .row {
+    display: flex;
+    text-align: center;
+
+
+}
+
+.footer-footer .container .row .row a {
+    padding: 0%;
+}
+.footer-footer i{
+    font-size: 40px;
+    color: white;
+ 
+}
+.footer-footer a{
+    margin-top: 20px;
+    width: 30%;  
+     margin-bottom: 20px;
+}
+.footer-footer .container .row .row p {
+    font-size: 14px;
+}
+.footer-footer .container .row .row h6{
+color: white;
+}
+.footer-footer .container .row .row h6 span{
+    text-decoration: underline;
+}
+.footer-footer .container .row {
+    margin-top: 35px;
+}
+.footer-top .container .row .min p {
+
+    color: rgb(179, 176, 176);
+}
+
+.footer-top .container .row hr {
+    height: 2px;
+}
+.footer-main .container .row h1{
+    color: black;
+
+    margin-top: 40px; 
+}
+.footer-main .container .row .contact h1{
+    color:white;
+    margin-left: 40px;
+    margin-top: 40px; 
+}
+.footer-main .container .row p{
+    color: white;
+    margin-left: 40px;
+    
+}
+.footer-main .container .row img{
+    width: 100%;
+}
+.contact3 p{
+    color: #000;
+    }
+    .contact3 p span{
+        color: #1AA1BF;
+        text-decoration: underline;
+    }
+    .contact3 .min2 button{
+        padding: 10px 50px;
+     border-radius: 10px;
+    margin-bottom: 30px;
+    }
+    .contact2 p{
+        color: white;
+        opacity: 0.7;
+        margin-left: 40px;
+    }
+    .contact2 i{
+        color: white;
+        margin-left: 40px;
+    }
+    .contact3 .min2 button a{
+           text-decoration: none;
+           color: #000;
+    }
+    .contact2 .icons i{
+        font-size: 40px;
+       
+    } 
+    .contact4 .icons i{
+        font-size: 40px;
+        color: white;
+        margin-left: 30px;
+    } 
+    h4{
+        margin-top: 40px;
+    }
+    @media screen and (max-width: 1000px){
+        .header-sp select {
+            transform: translateY(0px);
+            margin-bottom: 5px;
+            
+        }
+        header .header-top .container .row .navbar .container-fluid p{
+            text-align: start;
+        }
+     
+        header .header-top .container .row .navbar .shadow-n{
+           box-shadow: none;
+           width: 62px;
+        }
+        header .header-top .container .row .navbar .shadow-n img{
+            width: 100%;
+            height: 100%;
+        }
+        header .header-top .container .row .navbar .container-fluid .nav-link{
+            margin-left: 0px;
+            padding: 0.5rem 0rem;
+        }
+        section .section-main .container .row img {
+            margin-top: 50px;
+            width: 50%;
+        }
+    }
+    @media screen and (max-width:900px) {
+        h1{
+            font-size: 25px;
+        }
+        p{
+           font-size:  10px;
+        }
+        .bi{
+            font-size: 20px;
+        }
+        .section .container .row .div1 h3{
+        font-size: 20px;
+    }
+    section .section-main .container .row img{
+        width: 20%;
+    }
+    .products .row .product2 .button,.contact3 .min2 button,.products .row .product2 .button,.header-footer .about2 button, .button  {
+    padding: 15px 25px;
+    }
+    .products .row .product2 .row p ,.product4 .row p{
+        font-size:20px;
+    }
+        /* header .header-main .carousel .carousel-inner .carousel-item p {
+    
+            font-size: 20px;
+    
+        }
+    
+        header .header-main .carousel .carousel-inner .carousel-item h1 {
+    
+            font-size: 40px;
+    
+        } */
+        .footer-footer .container .row .row img{
+            width: 50%;
+        }
+    
+    }
+    
+    @media screen and (max-width:500px) {
+    
+        
+        /* header .header-main .carousel .carousel-inner .carousel-item h1 {
+    
+            font-size: 20px;
+    
+        }
+    
+        header .header-main .carousel .carousel-inner .carousel-item p {
+    
+            font-size: 10px;
+    
+        } */
+        section .section-main .container .row img {
+            width: 100%;
+            display: flex;
+            margin-top: 50px;
+        }
+        .product3,.product4{
+            display: none;
+        }
+        h1{
+            font-size: 20px;
+        }
+        p{
+           font-size:  10px;
+        }
+        .bi{
+            font-size: 20px;
+        }
+        section .section-main .container .row .div1 h3{
+        font-size: 100px;
+    }
+    .button{
+        padding: 10px 20px;
+    }
+    .footer-footer .container .row .row img{
+        width: 10%;
+    }
+    .products .row .product2 .button,.contact3 .min2 button,.products .row .product2 .button,.header-footer .about2 button, .button  {
+        padding: 10px 20px;
+        }
+        section .section-main .container .row img {
+            width: 100%;
+        }
+    }
